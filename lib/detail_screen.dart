@@ -16,28 +16,30 @@ class DetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Stack(
-              children: <Widget>[
-                Image.asset(
-                  movie.imageDetail,
-                  fit: BoxFit.cover,
-                  width: 500,
-                ),
-                SafeArea(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      IconButton(
-                        icon: Icon(Icons.arrow_back),
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                      ),
-                      FavoriteButton(),
-                    ],
+            SafeArea(
+              child: Stack(
+                children: <Widget>[
+                  Image.asset(
+                    movie.imageDetail,
+                    fit: BoxFit.cover,
+                    width: 500,
                   ),
-                ),
-              ],
+                  SafeArea(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        IconButton(
+                          icon: Icon(Icons.arrow_back),
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                        ),
+                        FavoriteButton(),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
             Container(
               margin: EdgeInsets.only(top: 25.0),

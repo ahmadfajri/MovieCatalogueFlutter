@@ -51,7 +51,7 @@ class MainScreen extends StatelessWidget {
                   children: <Widget>[
                     SizedBox(height: 60),
                     Container(
-                      width: 300,
+                      width: 250,
                       child: Expanded(
                         child: Padding(
                           padding: EdgeInsets.only(right: 20),
