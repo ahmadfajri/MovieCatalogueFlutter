@@ -227,7 +227,7 @@ var movieList = [
   Movie(
       name: 'Mulan',
       description:
-          'When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from.',
+          'When the Emperor of China issues a decree that one man per family must serve in the Imperial...',
       imageAsset: 'images/1.png',
       imageDetail: 'images/detail1.png'),
   Movie(
@@ -239,7 +239,7 @@ var movieList = [
   Movie(
       name: 'Rogue',
       description:
-          'Battle-hardened O’Hara leads a lively mercenary team of soldiers on a daring mission: rescue hostages from their captors in remote Africa.',
+          'Battle-hardened O’Hara leads a lively mercenary team of soldiers on a daring mission: rescue hostages...',
       imageAsset: 'images/3.png',
       imageDetail: 'images/detail3.png'),
 ];
