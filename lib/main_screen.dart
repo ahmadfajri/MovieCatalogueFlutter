@@ -235,11 +235,11 @@ var movieList = [
       description:
           'A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.',
       imageAsset: 'images/2.png',
-      imageDetail: 'images/detail1.png'),
+      imageDetail: 'images/detail2.png'),
   Movie(
       name: 'Rogue',
       description:
           'Battle-hardened O’Hara leads a lively mercenary team of soldiers on a daring mission: rescue hostages from their captors in remote Africa.',
       imageAsset: 'images/3.png',
-      imageDetail: 'images/detail1.png'),
+      imageDetail: 'images/detail3.png'),
 ];
