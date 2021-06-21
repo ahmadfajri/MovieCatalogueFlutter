@@ -2,7 +2,7 @@
 
 Submission 1 Dicoding: Belajar Membuat Aplikasi Flutter Untuk Pemula
 
-## what's included ?
+## What's Included ?
 
 - Using Stateless Widget.
 - Using Statefull Widget.
